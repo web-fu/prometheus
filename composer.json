@@ -1,0 +1,28 @@
+{
+  "name": "web-fu/prometheus",
+  "type": "library",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Gabriele Manganello",
+      "email": "info@web-fu.it"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WebFu\\": "src/"
+    }
+  },
+  "require": {
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "ext-dom": "*",
+    "phpunit/phpunit": "^7.5",
+    "friendsofphp/php-cs-fixer": "^2.16",
+    "sebastian/phpcpd": "^5.0",
+    "rector/rector": "^0.12.3"
+  }
+}
